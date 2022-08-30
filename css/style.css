@@ -1,55 +1,9 @@
+/* ----------------- global -------------------- */
+
 body {
     background-color: #030b09;
-    font-family: 'Silkscreen', cursive;
+    font-family: "Silkscreen", cursive;
     font-size: medium;
-}
-
-a {
-    text-decoration: none;
-}
-
-h3 {
-    padding-top: 0.5em;
-}
-
-.title {
-    text-align: center;
-    font-family: 'Silkscreen', cursive;
-    font-size: 5em;
-}
-
-.line {
-    margin-top: 1em;
-    margin-bottom: 3em;
-}
-
-.about {
-    font-weight: bolder;
-}
-
-.about a {
-    color: #1cbdbd;
-}
-
-.projects li {
-    color: #4682B4;
-}
-
-.projects a:hover {
-    color: #2F4F4F;
-}
-
-a:hover {
-    color: #F5FFFA;
-    text-decoration: none;
-}
-
-.subtitle {
-    text-align: center;
-}
-
-.description {
-    margin-left: 5%;
 }
 
 .back {
@@ -60,9 +14,68 @@ a:hover {
     color: #dcee33;
 }
 
+a {
+    text-decoration: none;
+}
+
+h3 {
+    padding-top: 0.5em;
+}
+
+
+/* ----------------- header -------------------- */
+
+.title {
+    text-align: center;
+    font-family: "Silkscreen", cursive;
+    font-size: 5em;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.line {
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+
+/* ----------------- about -------------------- */
+
+.about {
+    font-weight: bolder;
+}
+
+.about a {
+    color: #1cbdbd;
+}
+
+a:hover {
+    color: #f5fffa;
+    text-decoration: none;
+}
+
+
+/* ----------------- projects -------------------- */
+
+.proj-title {
+    clear: both;
+    padding-top: 16px;
+    font-size: 1.16em;
+}
+
+.description {
+    margin-left: 5%;
+}
+
+.projects a:hover {
+    color: #2f4f4f;
+}
+
 .projects {
-    font-family: 'Roboto Mono', monospace;
-    background-color: #FFE4C4;
+    font-family: "Roboto Mono", monospace;
+    background-color: #ffe4c4;
     clear: both;
 }
 
@@ -70,14 +83,17 @@ a:hover {
     float: left;
 }
 
-img {
+.proj img {
     padding: 4px;
     border: #030b09 2px solid;
     margin: 6px;
 }
 
-.proj-title {
+
+/* ----------------- fixes -------------------- */
+
+.clearfix::after {
+    content: "";
     clear: both;
-    padding-top: 16px;
-    font-size: 1.16em;
+    display: table;
 }
