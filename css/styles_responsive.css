@@ -78,6 +78,7 @@ a:hover {
 
 .description {
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 .projects a:hover {
@@ -174,6 +175,7 @@ a:hover {
         float: left;
         width: 250px;
         margin-left: 0vw;
+        padding-left: 5%;
     }
     .proj img {
         padding: 4px;
