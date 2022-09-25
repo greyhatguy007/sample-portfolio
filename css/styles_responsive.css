@@ -17,6 +17,7 @@ body {
 
 a {
     text-decoration: none;
+    display: block;
 }
 
 h3 {
@@ -59,6 +60,10 @@ h3 {
 a:hover {
     color: #f5fffa;
     text-decoration: none;
+}
+
+section a {
+    display: inline-block;
 }
 
 
